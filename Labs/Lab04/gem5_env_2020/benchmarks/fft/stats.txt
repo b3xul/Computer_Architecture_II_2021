@@ -1,0 +1,37 @@
+AtomicSimpleCPU
+host_seconds                                    12.17                       # Real time elapsed on the host
+sim_insts                                    21356881                       # Number of instructions simulated
+sim_ticks                                 10678466000                       # Number of ticks simulated
+system.cpu.committedInsts                    21356881                       # Number of instructions committed
+system.cpu.numCycles                         21356933                       # number of cpu cycles simulated
+
+TimingSimpleCPU
+host_seconds                                    46.91                       # Real time elapsed on the host
+sim_insts                                    21356881                       # Number of instructions simulated
+sim_ticks                                1266139855000                       # Number of ticks simulated
+system.cpu.committedInsts                    21356881                       # Number of instructions committed
+system.cpu.numCycles                       2532279710                       # number of cpu cycles simulated
+
+MinorCPU
+host_seconds                                    37.68                       # Real time elapsed on the host
+sim_insts                                    21356902                       # Number of instructions simulated
+sim_ticks                                 11824593000                       # Number of ticks simulated
+system.cpu.branchPred.BTBHits                 1444140                       # Number of BTB hits
+system.cpu.branchPred.condIncorrect             69076                       # Number of conditional branches incorrect
+system.cpu.branchPred.condPredicted           1579859                       # Number of conditional branches predicted
+system.cpu.committedInsts                    21356902                       # Number of instructions committed
+system.cpu.cpi                               1.107332                       # CPI: cycles per instruction
+system.cpu.numCycles                         23649186                       # number of cpu cycles simulated
+
+DerivO3CPU
+host_seconds                                    46.69                       # Real time elapsed on the host
+sim_insts                                    20972488                       # Number of instructions simulated
+sim_ticks                                  5607559500                       # Number of ticks simulated
+system.cpu.branchPred.BTBHits                 1562500                       # Number of BTB hits
+system.cpu.branchPred.condIncorrect             68120                       # Number of conditional branches incorrect
+system.cpu.branchPred.condPredicted           1699795                       # Number of conditional branches predicted
+system.cpu.committedInsts                    20972488                       # Number of Instructions Simulated
+system.cpu.cpi                               0.534754                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         0.534754                       # CPI: Total CPI of All Threads
+system.cpu.fetch.Insts                       24132664                       # Number of instructions fetch has processed
+system.cpu.numCycles                         11215120                       # number of cpu cycles simulated

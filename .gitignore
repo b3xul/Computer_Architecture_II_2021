@@ -1,0 +1,118 @@
+*.zip
+*.mkv
+*.mp4
+
+# A .gitignore for Keil projects.
+# Taken mostly from http://www.keil.com/support/man/docs/uv4/uv4_b_filetypes.htm
+
+# User-specific uVision files
+*.opt
+*.uvopt
+*.uvoptx
+*.uvgui
+*.uvgui.*
+*.uvguix.*
+
+# Listing files
+*.cod
+*.htm
+*.i
+*.lst
+*.map
+*.m51
+*.m66
+# define exception below if needed
+*.scr
+
+# Object and HEX files
+*.axf
+*.b[0-3][0-9]
+*.hex
+*.d
+*.crf
+*.elf
+*.hex
+*.h86
+*.lib
+*.obj
+*.o
+*.sbr
+
+# Build files
+# define exception below if needed
+*.bat
+*._ia
+*.__i
+*._ii
+
+# Generated output files
+/Listings/*
+/Objects/*
+
+# Debugger files
+# define exception below if needed
+*.ini
+
+# Other files
+*.build_log.htm
+*.cdb
+*.dep
+*.ic
+*.lin
+*.lnp
+*.orc
+# define exception below if needed
+*.pack
+# define exception below if needed
+*.pdsc
+*.plg
+# define exception below if needed
+*.sct
+*.sfd
+*.sfr
+
+# Miscellaneous
+*.tra
+*.bin
+*.fed
+*.l1p
+*.l2p
+*.iex
+
+# To explicitly override the above, define any exceptions here; e.g.:
+# !my_customized_scatter_file.sct
+
+# gem5
+build
+parser.out
+parsetab.py
+cscope.files
+cscope.out
+*.pyc
+*~
+.*.swp
+.*.swo
+m5out
+/src/doxygen/html
+/ext/dramsim2/DRAMSim2
+/ext/mcpat/regression/*/*.out
+/util/m5/*.o
+/util/m5/*.a
+/util/m5/m5
+/util/packet_pb2.py
+/util/tap/*.d
+/util/tap/*.o
+/util/tap/m5tap
+/util/term/m5term
+/system/arm/dt/*.dtb
+/system/arm/dt/.gen
+/system/arm/bootloader/arm/*.o
+/system/arm/bootloader/arm/boot.arm
+/system/arm/bootloader/arm/boot_emm.arm
+/system/arm/bootloader/arm64/*.o
+/system/arm/bootloader/arm64/boot.arm64
+/system/arm/bootloader/arm64/boot_emm.arm64
+/system/arm/bootloader/arm64/boot_v2.arm64
+configs/example/memcheck.cfg
+configs/dram/lowp_sweep.cfg
+.pyenv

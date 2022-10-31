@@ -1,0 +1,17 @@
+host_seconds                                    80.73                       # Real time elapsed on the host
+sim_insts                                    19613764                       # Number of instructions simulated
+sim_ticks                                 20282847500                       # Number of ticks simulated
+system.cpu.branchPred.BTBHits                 1312162                       # Number of BTB hits
+system.cpu.branchPred.condIncorrect            237756                       # Number of conditional branches incorrect
+system.cpu.branchPred.condPredicted           1525179                       # Number of conditional branches predicted
+system.cpu.commit.op_class_0::FloatCmp          21009      0.11%     82.86% # Class of committed instruction
+system.cpu.commit.op_class_0::SimdFloatCmp            0      0.00%     83.51% # Class of committed instruction
+system.cpu.committedInsts                    19613764                       # Number of Instructions Simulated
+system.cpu.cpi                               2.068226                       # CPI: Cycles Per Instruction
+system.cpu.cpi_total                         2.068226                       # CPI: Total CPI of All Threads
+system.cpu.fetch.Insts                       22479791                       # Number of instructions fetch has processed
+system.cpu.iq.FU_type_0::FloatCmp               23664      0.12%     82.45% # Type of FU issued
+system.cpu.iq.FU_type_0::SimdFloatCmp               0      0.00%     83.13% # Type of FU issued
+system.cpu.iq.fu_full::FloatCmp                    15      0.00%     99.88% # attempts to use FU when none available
+system.cpu.iq.fu_full::SimdFloatCmp                 0      0.00%    100.00% # attempts to use FU when none available
+system.cpu.numCycles                         40565696                       # number of cpu cycles simulated

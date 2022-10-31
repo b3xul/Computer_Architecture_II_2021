@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+
+speedup_enhanced=2
+cc_default=40565696
+
+#cat ./m5out/stats.txt | grep -E 'system.cpu.numCycles|system.cpu.iq.FU_type_0::Float'
+instruction_enhanced=112259
+latency_of_instruction=14
+cc_enhanced=40036644
+
+fraction_enhanced=(instruction_enhanced*latency_of_instruction)/cc_enhanced
+print("fraction_enhanced=" + str(fraction_enhanced))
+
+speedup_overall_by_amdahl=1/((1-fraction_enhanced)+fraction_enhanced/speedup_enhanced)
+print("speedup_overall_by_amdahl=")
+print("1/((1-"+str(fraction_enhanced)+")+"+str(fraction_enhanced)+"/"+str(speedup_enhanced)+")="+str(speedup_overall_by_amdahl))
+
+speedup_overall_by_simulation=cc_default/cc_enhanced
+print("speedup_overall_by_simulation=")
+print("40565696/"+str(cc_enhanced)+"="+str(speedup_overall_by_simulation))

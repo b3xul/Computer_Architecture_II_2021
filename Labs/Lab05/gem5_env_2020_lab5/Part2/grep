@@ -1,0 +1,2 @@
+sim_ticks|sim_insts|system.cpu.numCycles|system.cpu.cpi|system.cpu.committedInsts|host_seconds|system.cpu.fetch.Insts|system.cpu.branchPred.condIncorrect|system.cpu.branchPred.condPredicted|system.cpu.branchPred.BTBHits
+IntAlu|FloatAdd|FloatCmp|FloatCvt|FloatMult|FloatDiv|

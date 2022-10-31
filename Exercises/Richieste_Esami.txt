@@ -1,0 +1,59 @@
+30-1-2019 1.1
+Buttons incrementing variable (Debouncing)
+Timer0 repeating
+asm:average of array+check errors (overflow)
+Led binary representation ld4-ld9
+Led blinking at 4Hz ->timer
+
+30-1-2019 2.1
+Joystick incrementing variable (polling)
+asm:count_negative_and_odd in a vett
+Led 1.3s ON - 0.9s OFF
+Led binary representation ld5-ld11
+
+30-1-2019 3.1
+Timer2 1.7minutes, repeating, no interrupt
+int0,key1,select incrementing variable using timer value (tc)
+prolonged press on select (4s->multiple of 25ms)
+asm:count_bits_to_1
+4->led4
+5->led5
+Led 0.06s ON - 0.06s OFF
+
+28-02-2019
+timer0
+key1 1st pressure starts timer, 2nd pressure captures timer and put value in var
+asm:search_in_pool receives captured var, defines literal pool of N elements and searches var in the pool, returning its position
+Led04-led11 to show result 32bit (8bit, 0.5s, 8bit,..)
+ciclical program
+
+19-06-2019
+Constant vector data_in[n] in code memory read only
+best_3[3] in ram
+asm:highest 3 elements in vector
+Led shows best1,2,3 each 0.8s using timer2
+
+4-9-2019
+timer0 no interrupt
+key1 stop, capture tc, put it in vett, resume counting
+asm:strictly monotone ascending(ffff)/max and Led it out on ld4-ld11
+
+28-01-2020
+binaryExtendedGCD da implementare in asm
+
+3-2-2020
+timer1 ciclico no interrupt 2,43 min
+key1->leggo tc, estraggo 8 bit (16-23) del tc e li piazzo in val
+led11-4(msb) mostrano codfica binaria dell'indice del valore da acquisire (0,1,2..)
+asm:ordina nuovo dato in vett (0:max) get and sort
+acquisiti n vettori mostrare sui led i numeri in sequenza, con f=0.5hz
+ripeti
+
+3-2-2021
+Joystick
+Key2 attiva timer3 con periodo 1s
+ogni 25ms si campiona (polling) up del joystick
+valore iniziale in var, variazioni in tempi variazioni (vettore)
+dopo 5 variazioni oppure timeout si cambia modalita'
+frequenza di 0.5Hz 
+asm:duty cycle segnale
