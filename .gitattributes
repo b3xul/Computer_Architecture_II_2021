@@ -1,0 +1,6 @@
+**/TouchPanel/** linguist-vendored
+**/12_sample_GLCD_touchpanel/GLCD/** linguist-vendored
+**/extrapoints2/GLCD/AsciiLib* -linguist-vendored
+**/extrapoints2/GLCD/HzLib* -linguist-vendored
+**/system_LPC17xx.c -linguist-vendored
+**/core_cm3.c -linguist-vendored
